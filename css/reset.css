@@ -5,6 +5,7 @@ html {
 	box-sizing: border-box;
 }
 body {
+	font-family: 'Playfair Display SC', serif;
 	margin: 0;
 }
 img {
@@ -13,6 +14,265 @@ img {
 	vertical-align: bottom;
 }
 
+.topbar {
+	box-sizing: border-box;
+	background-color: rgb(153, 138, 88);
+	color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 800;
+	width: 100%;
+	padding: 0;
+	line-height: 0.5;
+	display: flex;
+	justify-content: center;
+}
+
+.title {
+	font-size: 2em;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+/* BUTTON STYLING */
+
+.cartbtn {
+	box-sizing: border-box;
+	display: block;
+	position: fixed;
+	top: 1em;
+	right: 2em;
+	height: 40px;
+    color: rgb(255, 255, 255);
+	font-size: 1em;
+	text-transform: uppercase;
+    text-align: center;
+	transition: background-color 0.2s;
+	padding: 0.5em;
+}
+
+.cartbtn:hover {
+	background-color: rgb(92, 89, 77);
+}
+
+
+.searchbtn { 
+	box-sizing: border-box;
+	display: block;
+	position: fixed;
+	top: 1em;
+	right: 4.5em;
+	height: 40px;
+    color: rgb(255, 255, 255);
+	font-size: 1em;
+	text-transform: uppercase;
+    text-align: center;
+	transition: background-color 0.2s;
+	padding: 0.5em;
+}
+
+.searchbtn:hover {
+	background-color: rgb(92, 89, 77);
+}
+
+.menubar {
+	display: flex;
+	justify-content: space-between;
+	
+}
+.mainmenu {
+	box-sizing: border-box;
+	background-color: rgb(153, 138, 88);
+	color: white;
+	position: relative;
+	top: 3.3em;
+	left: 0;
+	z-index: 700;
+	width: 100%;
+	padding: 1em;
+	font-size: 1em;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	transition: background-color 0.2s;
+}
+
+.mainmenu li {
+	list-style-type: none;
+}
+	
+.mainmenu a {
+	color: white;
+}
+
+.mainmenu:hover {
+	background-color: rgb(92, 89, 77);
+}
+
+/*MAIN IMAGE (bread)*/
+.lead-img {
+	box-sizing: border-box;
+	background-color:rgb(241, 241, 241);
+	position: relative;
+	top: 3em;
+	left: 8em;
+	width: 100%;
+	justify-content: center;
+	display: block;
+	overflow: hidden;
+	
+}
+
+/*PRODUCT DISPLAY*/
+
+.stories {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+	
+}
+
+.story {
+	box-sizing: border-box;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 1em rgba(153, 153, 153, 0.2);
+	position: relative;
+	top: 5em;
+	left: 3em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 360px;
+	height: 475px;
+	margin: 1em 0.5em;
+
+	
+}
+
+.prod-lead {
+	position: relative; 
+	top: -4em;
+	left: 0;
+}
+
+.prod-img {
+	width: 275px;
+	height: 270px; 
+	display: block;
+	
+}
+
+.p-header {
+	background-color: rgb(255, 255, 255);
+	box-sizing: border-box;
+	position: relative;
+	bottom: 0em;
+	left: 2em;
+	font-size: 20px;
+	font-weight: 100;
+	width: 80%;
+	text-align: left;
+	display: flex;
+	
+}
+
+
+.price {
+	display: flex;
+	position: relative;
+	top: -3em;
+	width: 10%;
+	list-style: none;
+}
+
+.price li {
+	margin-left: 14.5em;
+
+}
+
+
+.p-content {
+	background-color: rgb(250, 250, 246);
+	display: block;
+	font-style: italic;
+	position: relative;
+	top: -0.5em;
+	left: 0em;
+	width: 275px;
+}
+
+.add-btn {
+	display: block;
+	position: relative;
+	bottom: 0.5em;
+	left: 6em;
+	background-color: rgb(153, 138, 88);
+    color: rgb(255, 255, 255);
+	text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2;
+	transition: background-color 0.2s;
+	max-width: 40%; 
+}
+
+.add-btn:hover {
+    background-color: black;
+}
+	
+
+.sidebar {
+	position: fixed;
+	top: 5em;
+	left: 0;
+	width: 150px;
+	height: 120px;
+	background-color: rgb(126, 123, 123);
+	border: 1px solid black;
+}
+
+.sidebar ul li {
+	display: block;
+	position: relative;
+	top: 1em;
+	left: -1em;
+	line-height: 40px;
+	
+}
+
+.serving {
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	position: relative;
+	top: 7em;
+	left: -0.5em;
+	width: 10%;
+}
+
+.serving li {
+	list-style: none;
+}
+
+
+.results {
+	display: block;
+	position: relative;
+	right: -65em;
+	bottom: -4em;
+}
+
+.foot {
+	display: block; 
+	position: relative;
+	top: 5em;
+	left: em;
+	background-color: forestgreen;
+}
+
+.foot li{
+	list-style: none;
+}
 /* Uncomment to unstyle all unordered lists, then a rule for class="ul" to restyle lists when needed
 ul {
 	list-style: none;
@@ -28,3 +288,24 @@ ul.ul {
 	padding-inline-start: 40px;
 } 
 */
+
+
+<nav aria-label="Primary">
+        <button type="button">
+          <span class="material-icons">menu</span>
+        </button>
+	  </nav>
+	  
+	  <form>
+        <label>Search
+          <input type="search" name="find" id="find">
+        </label>
+        <button type="button"><span class="material-icons">search</span></button>
+      </form>
+
+      <!-- Additional nav links -->
+
+      <ul>
+        <li><a href="#"><span class="material-icons">shopping_cart</span></a></li>
+      </ul>
+    </header>
