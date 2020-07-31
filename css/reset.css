@@ -61,15 +61,19 @@ select {
 	text-transform: uppercase;
 	display: block;
 	position: relative;
-	left: 1em;
-	
+	left: 1em;	
+}
+
+.title a {
+	color: white;
+	text-decoration: none;
 }
 
 .logo {
 	display: block;
 	position: relative;
-	right: 24em;
-	bottom: -0.5em;
+	right: 15.5em;
+	bottom: 0.4em;
 	z-index: 900;
 	width: 50px;
 	height: 20px;
@@ -79,8 +83,8 @@ select {
 .logoright {
 	display: block;
 	position: relative;
-	left: 0.5em;
-	bottom: -0.5em;
+	left: 0em;
+	bottom: .4em;
 	z-index: 900;
 	width: 50px;
 	height: 20px;
@@ -179,7 +183,7 @@ select {
 	flex-direction: column;
 	margin: 2em 1.5em;
 	width: 350px;
-	height: 475px;
+	height: auto;
 	position: relative;
     top: 6.5em;
 	left: 12.5em;
@@ -190,13 +194,13 @@ select {
 
 .prod-lead {
 	position: relative; 
-	top: -4em;
+	top: -2em;
 	left: 0;
 }
 
 .prod-img {
-	width: 275px;
-	height: 270px; 
+	width: 290px;
+	height: auto; 
 	display: block;
 }
 
@@ -204,7 +208,7 @@ select {
 	background-color: rgb(255, 255, 255);
 	box-sizing: border-box;
 	position: relative;
-	bottom: 0em;
+	bottom: -1.5em;
 	left: 2em;
 	font-size: 20px;
 	font-weight: 100;
@@ -217,7 +221,7 @@ select {
 .price {
 	display: flex;
 	position: relative;
-	top: -3em;
+	top: -1.5em;
 	width: 10%;
 	list-style: none;
 	font-weight: 100;
@@ -226,6 +230,19 @@ select {
 .price li {
 	margin-left: 14.5em;
 
+}
+
+.price-almond {
+	display: flex;
+	position: relative;
+	top: -3.2em;
+	width: 10%;
+	list-style: none;
+	font-weight: 100;
+}
+
+.price-almond li {
+	margin-left: 14.5em;
 }
 
 .p-content {
@@ -283,12 +300,26 @@ select {
 	display: block;
 	position: relative;
 	right: -82.7em;
-	bottom: 67em;
+	bottom: 77em;
 	width: 127px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 15px;
 }
 
+
+
+.detail-head {
+	display: block;
+	position: relative;
+	top: 10em;
+	border: 1px solid rgb(230, 230, 230);
+	color: rgb(0, 0, 0);
+	line-height: 2;
+	font-size: 25px;
+	font-weight: 500;
+	text-align: center;
+	;
+}
 
 
 .detail {

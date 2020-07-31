@@ -2,6 +2,7 @@
 <html lang="en">
 
   <head>
+    <title>La Petite Patisserie</title>
 
     <style>
         @import url('<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">');
@@ -24,32 +25,33 @@
 
    
 <header>
-  <body>
-<main> <!-- Navigation menu and toggle button (non-functional) --> 
+
+<!-- Navigation menu and toggle button (non-functional) --> 
   
   <nav class="topbar">
-    <h1 class="title">La Petite Patisserie</h1>
+    <h1 class="title"><a href="" class="lpp">La Petite Patisserie</a></h1>
 
     <a href="" class="cartbtn">
       <span class="material-icons">shopping_cart</span></a>
     <a href="" class="searchbtn">
       <span class="material-icons">search</span></a>
-    <article class="logo">
-      <img src="img/logo.jpg" alt="Brand Logo)"></article>
-     <article class="logoright">
-      <img src="img/logo.jpg" alt="Brand Logo)"></article>
+    <h1 class="logo">
+      <img src="img/logo.jpf" alt="Brand Logo)"></h1>
+     <h1 class="logoright">
+      <img src="img/logo.jpf" alt="Brand Logo)"></h1>
     
-    </main>
   </nav>
 
 
     <div class="menubar">
-       <li class="mainmenu">About Us</li>
-       <li class="mainmenu">Featured Pastries</li>
-        <li class="mainmenu">Viennoiseries</li>
-        <li class="mainmenu">Breads</li>
-        <li class="mainmenu">Order Online</li>
-        <li class="mainmenu">Contact Us</li>
+      
+        <p class="mainmenu">About Us</p>
+        <p class="mainmenu">Featured Pastries</p>
+        <p class="mainmenu">Viennoiseries</p>
+        <p class="mainmenu">Breads</p>
+        <p class="mainmenu">Order Online</p>
+        <p class="mainmenu">Contact Us</p>
+      
   </div>
   
 <form>
@@ -69,8 +71,8 @@
 
 <form>
   <fieldset class="flavour">
-    <label for="sort"></label>
-    <select name="sort" id="sort">
+    <label for="option"></label>
+    <select name="option" id="option">
       <option>Show All</option>
       <option>Plain</option>
       <option>Chocolate</option>
@@ -86,7 +88,7 @@
 
 <div class="stories">
 
-  <main class="story">
+  <article class="story">
   
       <h2 class="p-header">Butter Croissant</h2>
       <ul class="price">
@@ -94,17 +96,17 @@
       </ul>
 
       <figure class="prod-lead">
-        <img src="img/P1.jpeg" alt ="butter croissant" class="prod-img">
+        <img src="img/P1.jpf" alt ="butter croissant" class="prod-img">
       
 
       <p class="p-content">Hand rolled using the traditional French technique. Flaky, buttery, a classic.</p>
     
-      <a href class="add-btn">Add to Basket</a>
+      <a href="" class="add-btn">Add to Basket</a>
     </figure>
-  </main>
+  </article>
 
 
-  <main class="story">
+  <article class="story">
   
       <h2 class="p-header">Chocolate Croissant</h2> 
       <ul class="price">
@@ -112,33 +114,33 @@
       </ul>
 
       <figure class="prod-lead">
-        <img src="img/P2.jpeg" alt ="choclate croissant" class="prod-img">
+        <img src="img/P2.jpf" alt ="choclate croissant" class="prod-img">
      
       
       <p class="p-content">Traditional Pain au Chocolat. Baked with semi-sweet chocolate.</p>
+      <a href="" class="add-btn">Add to Basket</a>
       
-      <a href class="add-btn">Add to Basket</a>
-    
-  </main>
+    </figure>
+      </article>
 
-  <main class="story">
+  <article class="story">
   
     <h2 class="p-header">Almond Croissant</h2> 
-    <ul class="price">
-      <li>$3.75</li>
+    <ul class="price-almond">   
+       <li>$3.75</li>
     </ul>
 
     <figure class="prod-lead">
-      <img src="img/P3.jpg" alt ="almond croissant" class="prod-img">
+      <img src="img/P3.jpf" alt ="almond croissant" class="prod-img">
     
     <p class="p-content">Sweet marzipan filling between our flaky croissant, topped with toasted almonds.</p>
     
-    <a href class="add-btn">Add to Basket</a>
+    <a href="" class="add-btn">Add to Basket</a>
   </figure>
-</main>
+</article>
 
 
-<main class="story">
+<article class="story">
   
   <h2 class="p-header">Kouign-Amann</h2> 
   <ul class="price">
@@ -146,17 +148,17 @@
   </ul>
 
   <figure class="prod-lead">
-    <img src="img/P4.jpg" alt ="Kouign-Amann" class="prod-img">
+    <img src="img/P4.jpf" alt ="Kouign-Amann" class="prod-img">
   
   <p class="p-content">Bread dough layered with salted butter and sugar. Next-level caramalization.</p>
   
-  <a href class="add-btn">Add to Basket</a>
+  <a href="" class="add-btn">Add to Basket</a>
 </figure>
-</main>
+</article>
 
 
 
-<main class="story">
+<article class="story">
   
   <h2 class="p-header">Fruit Danish (seasonal)</h2> 
   <ul class="price">
@@ -164,30 +166,34 @@
   </ul>
 
   <figure class="prod-lead">
-    <img src="img/P5.jpg" alt ="Fruit Danish" class="prod-img">
+    <img src="img/P5.jpf" alt ="Fruit Danish" class="prod-img">
   
   <p class="p-content">Flaky puff pastry topped with vanilla pastry crème and fresh fruit.</p>
   
-  <a href class="add-btn">Add to Basket</a>
+  <a href="" class="add-btn">Add to Basket</a>
 </figure>
-</main>
+</article>
 </div>
 
 
 
 
 <article class="results">
-<section role="navigation" aria-label="Pagination">
-  <p>1-5 products found</p>
+  <h5>1-5 products found</h5>
+<section role="navigation" aria-label="Pagination"></section>
+
 </article>
+
 
 </header>
 
 
 <div>
+
+<h3 class="detail-head">Explore Our Bakery Collection</h3>
 <article class="detail">
-  <figure> <img src="img/breads.jpeg" alt ="Breads" class="bread-img"></figure>
-  <figure><img src="img/pastrybox.jpg" alt="Boxes" class="boxes-img"></figure>
+  <figure> <img src="img/breads.jpf" alt ="Breads" class="bread-img"></figure>
+  <figure><img src="img/pastrybox.jpf" alt="Boxes" class="boxes-img"></figure>
 </article>
 
   <h2 class="bread-btn">Shop Now</h2>
@@ -211,7 +217,7 @@
  </figure> 
 
   <figure class=social> 
-    <a href=""><span><img src="img/shot.png" alt="instagram" class="social-img"></span>
+    <a href=""><span><img src="img/shot.jpf" alt="instagram" class="social-img"></span>
     </a></figure>
   
       <form class="search-container">
